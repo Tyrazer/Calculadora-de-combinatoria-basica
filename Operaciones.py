@@ -13,3 +13,9 @@ def stirling_second(n,k):
           return 1
      else:
           return k*stirling_second(n-1,k)+stirling_second(n-1,k-1)
+
+def permutacion(n,k):
+     if k>n:
+          return 0
+     else:
+          return math.perm(n,k)
