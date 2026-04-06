@@ -1,10 +1,18 @@
 import math 
 
-def combinacion(n,k):
+def combinacion_sin_rep(n,k):
     if k>n:
          return 0
     else:
         return math.comb(n,k)
+
+def combinacion_con_rep(n,k):
+     if n==0 and k==0:
+          return 1
+     elif n==0:
+          return 0
+     else:
+          return math.comb(n+k-1,k)
 
 def stirling_second(n,k):
      if k==0 or k>n:
