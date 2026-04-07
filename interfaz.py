@@ -62,7 +62,7 @@ var_op=tk.IntVar(value=1)
 rb_comb_sin_rep=tk.Radiobutton(ventana,text="Combinación sin repetición",font=("Arial",12),variable=var_op, value=1,fg="#334e68")
 rb_comb_con_rep=tk.Radiobutton(ventana,text="Combinación con repetición",font=("Arial",12),variable=var_op, value=2, fg="#334e68")
 rb_perm=tk.Radiobutton(ventana, text="Permutación",font=("Arial",12), variable=var_op, value=3,fg="#334e68")
-rb_stirling=tk.Radiobutton(ventana,text="Stirling 2da clase",font=("Arial",12),variable=var_op, value=4, fg="#334e68")
+rb_stirling=tk.Radiobutton(ventana,text="Números de stirling de segunda clase",font=("Arial",12),variable=var_op, value=4, fg="#334e68")
 
 rb_comb_sin_rep.pack()
 rb_comb_con_rep.pack()
